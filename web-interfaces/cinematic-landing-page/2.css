@@ -1,0 +1,82 @@
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@633&display=swap');
+    *{
+        font-family: "Roboto", sans-serif;
+        padding: 0;
+        margin: 0;
+    }
+    a{
+        color: white;
+        text-decoration: none;/*لازالة الخط الي تحت الرابط */
+    }
+    body{
+    background-image: linear-gradient(to right,#01022d,#000);
+    height: 100vh;
+    display: flex;
+    justify-content: center;/*التحكم في المحور السيني */
+    align-items: center;/*التحكم في المحور الصادي */
+
+    }
+    .container{
+        background-image:linear-gradient(to right,#01022de5 30%,#00000088),url(ca-times.brightspotcdn.webp) ;
+        width: 100%;
+        min-height: 100vh;
+        background-repeat: no-repeat;/* لمنع تكركر الصور*/
+        background-position: center;/*حتى تبقة الصورة واضحة عن التمدد */
+        background-size: cover;
+    }
+
+    .container:hover{
+        background-image:linear-gradient(to right,#01022de5 30%,transparent),url(ca-times.brightspotcdn.webp) ;
+
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+    .logo{
+        font-size: 30px;
+        text-transform:uppercase ;
+    }
+    ul{
+        width: 60%;
+        list-style: none;
+        display: flex;
+        justify-content:space-evenly;
+    }
+    ul a{
+        border-bottom:2px solid transparent ;
+    }
+    ul a:hover{
+        border-bottom-color: white;
+    }
+    .content{
+        color: white;
+        width: 30%;
+        margin-top: 50px;
+        padding: 30px;
+
+    }
+    .content h2{
+        font-size: 100px;
+        text-transform: uppercase;
+        width: 350px;
+        padding: 20px 0;
+    }
+    .content button{
+        font-size: 30px;
+        padding: 6px 10px;
+        border-radius: 10px;
+        border: 2px solid transparent;
+        cursor: pointer;
+        margin: 20px;
+    }
+    .content button:hover{
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    
+    }
+
+

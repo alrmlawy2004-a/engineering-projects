@@ -1,0 +1,106 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@633&display=swap');
+
+ * {
+     font-family: "Roboto", sans-serif;
+     color: #1E293B;
+     padding: 0;
+     margin: 0;
+ }
+
+ a {
+     text-decoration: none;
+     color: white;
+ }
+
+ body {
+     background-image: linear-gradient(to right, #01022d8c, #00000074), url(i.jpg);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: start;
+ }
+
+ body:hover {
+     background-image: linear-gradient(to right, #01022d7d, #0000001f), url(i.jpg);
+ }
+
+ .content {
+
+     height: 50px;
+     width: 100%;
+
+
+ }
+ .content  .tree{
+    font-size: 50px;
+ }
+  .content  ul{
+    font-size: 30px;
+ }
+ header {
+
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 10px;
+
+ }
+
+ ul {
+     display: flex;
+     list-style: none;
+     gap: 20px;
+ }
+
+ ul a:hover {
+     background-color: white;
+     border-radius: 20px;
+     color: black;
+     text-shadow: 10px 10px 10px #573b3b;
+ }
+
+ .im {
+  
+    
+     height: 500px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+
+ }
+
+ .im p {
+    font-size: 80px;
+     color: #F8FAFC;
+
+ }
+ .im p:hover {
+    font-size: 100px;
+     color: #3b6997;
+     text-shadow: 10px 10px 10px #2c2744;
+ }
+
+.content .bu{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.content button{
+    font-size: 30px;
+    border: solid 5px royalblue;
+ background: #3b6997;
+    color: white;
+    border-radius: 10px;
+}
+.content button:hover{
+    font-size: 40px;
+    border: solid 5px rgba(65, 105, 225, 0);
+    background: #3b699700;
+    color: rgb(100, 95, 124);
+    border-radius: 10px;
+}

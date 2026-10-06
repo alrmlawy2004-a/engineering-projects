@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+     font-family: "Roboto Slab", serif;
+}
+body{
+    background-color: white;
+}
+
+header{
+    height: 60px;
+background-color: #155DFC;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+ul{
+    
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.5s;
+}
+a:hover{
+    
+     font-size: 21px;
+     background-color:#51A2FF ;
+     border-radius: 5px;
+     border:solid #74D4FF;
+}
+.content{
+background-color: #1447E6;
+border-radius:0 0 20px 20px ;
+}
+.mg{
+ display: flex;
+justify-content: flex-end;
+gap: 400px;
+align-items: center;
+padding: 20px;
+}
+.mg img{
+    height: 600px;
+    border-radius: 20px;
+    border: solid 10px #1E1A4D;
+}
+.mg h1 {
+    color: white;
+   
+}
+.cards{
+   width: 1450px;
+   background-color: #1449e60f;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;  
+    display: flex;
+    gap: 100px;
+       
+}
+.card{
+    display: flex;
+     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    height: 360px;
+    background-color: #2c212133;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 5px #631d1d42;
+     transition: transform 0.3s, border-color 0.3s;
+     text-align: center;
+
+}
+.card img{
+    height: 300px;
+    width: 250px;
+   border-radius: 10px;
+   background-size: cover;
+
+}
+
+.card:hover{
+       transform: scale(1.03);
+    border-color: rgba(20, 24, 22, 0.578);
+ border-radius: 15px;
+    box-shadow: 10px 10px 10px #0000007e ;
+}
+
