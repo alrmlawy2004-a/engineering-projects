@@ -15,3 +15,5 @@ I am Alaa Salim Al Ramlawi. This collection brings together my projects and exer
 ## Working with the collection
 
 These projects span different environments. There is no shared build command. Read the relevant project README before running code. Use fictional records for the console applications and isolated development databases for SQL. Datasets needed by the notebooks are described in their READMEs.
+
+[Explore my portfolio](https://alaa-salim-al-ramlawi-portfolio.adhammr223.chatgpt.site)
