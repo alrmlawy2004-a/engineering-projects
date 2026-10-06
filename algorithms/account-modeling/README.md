@@ -10,14 +10,20 @@ Java 17 or later is required. From this directory:
 mvn compile exec:java
 ```
 
-Main class: `com.mycompany.assignmentofanalysis1.AssignmentOfAnalysis1`.
+Main class: `accounts.AssignmentOfAnalysis1`.
 
 Without Maven, use PowerShell:
 
 ```powershell
-$sources = Get-ChildItem src/main/java -Recurse -Filter *.java
+$sources = Get-ChildItem src -Recurse -Filter *.java
 javac -encoding UTF-8 -d out $sources.FullName
-java -cp out com.mycompany.assignmentofanalysis1.AssignmentOfAnalysis1
+java -cp out accounts.AssignmentOfAnalysis1
 ```
 
-See the [collection documentation](../README.md) for the application's scope and limitations. Compilation has been checked with JDK 23; interactive workflows are not exhaustively tested.
+These are standalone learning exercises. Compilation and representative behaviour were checked with JDK 23.
+
+## Source code
+
+- [Account.java](src/accounts/Account.java)
+- [AssignmentOfAnalysis1.java](src/accounts/AssignmentOfAnalysis1.java)
+- [Person.java](src/accounts/Person.java)

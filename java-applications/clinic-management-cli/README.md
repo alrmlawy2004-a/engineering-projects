@@ -1,23 +1,35 @@
 # Clinic Management CLI
 
-This is a Java console project in my engineering project collection.
+I built a file-based Java console application for clinic workflows. It provides menus for administration, reception, doctors, finance, and pharmacy.
+
+## Source code
+
+- [ClinicApp.java](src/clinic/ClinicApp.java)
+
+## Structure
+
+```text
+src/clinic/   Java source files
+pom.xml         Maven build and entry point
+README.md       Project guide
+```
 
 ## Run
 
-Java 17 or later is required. From this directory:
+Use Java 17 or later. From the repository directory:
 
 ```shell
 mvn compile exec:java
 ```
 
-Main class: `com.mycompany.clinicapp.ClinicApp`.
-
-Without Maven, use PowerShell:
+Or use PowerShell without Maven:
 
 ```powershell
-$sources = Get-ChildItem src/main/java -Recurse -Filter *.java
+$sources = Get-ChildItem src -Recurse -Filter *.java
 javac -encoding UTF-8 -d out $sources.FullName
-java -cp out com.mycompany.clinicapp.ClinicApp
+java -cp out clinic.ClinicApp
 ```
 
-See the [collection documentation](../README.md) for the application's scope and limitations. Compilation has been checked with JDK 23; interactive workflows are not exhaustively tested.
+## Scope and limitations
+
+Records are kept in local text files. The project uses demonstration logins and plain-text storage. It is an educational application and is not suitable for real patient records or production access control. Authentication initialization was checked; every interactive workflow has not been exhaustively tested.

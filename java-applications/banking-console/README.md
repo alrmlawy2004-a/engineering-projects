@@ -1,23 +1,36 @@
 # Banking Console Exercise
 
-This is a Java console project in my engineering project collection.
+I practice account initialization, deposits, withdrawals, and balance display in a small Java console exercise.
+
+## Source code
+
+- [Bank.java](src/banking/Bank.java)
+- [Bank1.java](src/banking/Bank1.java)
+
+## Structure
+
+```text
+src/banking/   Java source files
+pom.xml         Maven build and entry point
+README.md       Project guide
+```
 
 ## Run
 
-Java 17 or later is required. From this directory:
+Use Java 17 or later. From the repository directory:
 
 ```shell
 mvn compile exec:java
 ```
 
-Main class: `com.mycompany.bank.Bank`.
-
-Without Maven, use PowerShell:
+Or use PowerShell without Maven:
 
 ```powershell
-$sources = Get-ChildItem src/main/java -Recurse -Filter *.java
+$sources = Get-ChildItem src -Recurse -Filter *.java
 javac -encoding UTF-8 -d out $sources.FullName
-java -cp out com.mycompany.bank.Bank
+java -cp out banking.Bank
 ```
 
-See the [collection documentation](../README.md) for the application's scope and limitations. Compilation has been checked with JDK 23; interactive workflows are not exhaustively tested.
+## Scope and limitations
+
+The model rejects negative and non-finite monetary operations and preserves the balance on an overdraft. It uses floating-point amounts and has no persistence, transaction ledger, or production banking controls.

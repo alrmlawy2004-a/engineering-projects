@@ -1,0 +1,15 @@
+target/
+out/
+__pycache__/
+.ipynb_checkpoints/
+.env
+*.log
+users.txt
+patients.txt
+doctors.txt
+meds.txt
+rooms.txt
+depts.txt
+*_log.txt
+data/
+partitioned_by_*/

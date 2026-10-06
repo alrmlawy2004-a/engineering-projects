@@ -17,4 +17,4 @@ Install `pip install -r requirements.txt`, then launch `jupyter notebook`. The c
 
 ## Scope and limitations
 
-HAR input data is not included. Churn preprocessing currently imputes before splitting; its evaluation remains exploratory. No deployment service or newly verified accuracy score is claimed.
+HAR input data is not included. Churn missing-value imputation fits the training partition only; evaluation remains exploratory. No deployment service or newly verified accuracy score is claimed.

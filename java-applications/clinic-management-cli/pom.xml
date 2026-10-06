@@ -9,6 +9,9 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
-        <exec.mainClass>com.mycompany.clinicapp.ClinicApp</exec.mainClass>
+        <exec.mainClass>clinic.ClinicApp</exec.mainClass>
     </properties>
+    <build>
+        <sourceDirectory>src</sourceDirectory>
+    </build>
 </project>

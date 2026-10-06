@@ -10,14 +10,19 @@ Java 17 or later is required. From this directory:
 mvn compile exec:java
 ```
 
-Main class: `com.mycompany.ass2a1320220837.Ass2A1320220837`.
+Main class: `parentheses.Ass2A1320220837`.
 
 Without Maven, use PowerShell:
 
 ```powershell
-$sources = Get-ChildItem src/main/java -Recurse -Filter *.java
+$sources = Get-ChildItem src -Recurse -Filter *.java
 javac -encoding UTF-8 -d out $sources.FullName
-java -cp out com.mycompany.ass2a1320220837.Ass2A1320220837
+java -cp out parentheses.Ass2A1320220837
 ```
 
-See the [collection documentation](../README.md) for the application's scope and limitations. Compilation has been checked with JDK 23; interactive workflows are not exhaustively tested.
+These are standalone learning exercises. Compilation and representative behaviour were checked with JDK 23.
+
+## Source code
+
+- [Ass2A1320220837.java](src/parentheses/Ass2A1320220837.java)
+- [BalancedParentheses.java](src/parentheses/BalancedParentheses.java)
