@@ -14,11 +14,11 @@ I am Alaa Salim Al Ramlawi. My field is intelligent systems and computer enginee
 | [Human Activity Recognition](https://github.com/alrmlawy2004-a/human-activity-recognition) | PCA, LDA and SVC on sensor data |
 | [Wine Quality Classification](https://github.com/alrmlawy2004-a/wine-quality-classification) | Linear SVM and XGBoost comparison |
 | [Penguin Data Exploration](https://github.com/alrmlawy2004-a/penguin-data-exploration) | Exploratory plots and statistical tests |
-| [Storage & Reliability Experiments](https://github.com/alrmlawy2004-a/engineering-projects/tree/main/data-systems) | Formats, partitions and replicated-block simulation |
-| [Relational Store Database](https://github.com/alrmlawy2004-a/engineering-projects/tree/main/databases) | Relationships, joins and aggregates |
-| [Web Interface Studies](https://github.com/alrmlawy2004-a/engineering-projects/tree/main/web-interfaces) | Five static HTML and CSS layouts |
-| [Algorithms & Data Structures](https://github.com/alrmlawy2004-a/engineering-projects/tree/main/algorithms) | Independent Java modeling and stack exercises |
-| [Video Game Sales Workbook](https://github.com/alrmlawy2004-a/engineering-projects/blob/main/data-systems/video-game-sales.twb) | Tableau workbook with external data requirements |
+| [Storage & Reliability Experiments](https://github.com/alrmlawy2004-a/storage-reliability-experiments) | Formats, partitions and replicated-block simulation |
+| [Relational Store Database](https://github.com/alrmlawy2004-a/relational-store-database) | Relationships, joins and aggregates |
+| [Web Interface Studies](https://github.com/alrmlawy2004-a/web-interface-studies) | Five static HTML and CSS layouts |
+| [Algorithms & Data Structures](https://github.com/alrmlawy2004-a/algorithms-data-structures) | Independent Java modeling and stack exercises |
+| [Video Game Sales Workbook](https://github.com/alrmlawy2004-a/video-game-sales-tableau) | Tableau workbook with external data requirements |
 
 ## Working with the projects
 
